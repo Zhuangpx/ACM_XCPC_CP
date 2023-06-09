@@ -2,13 +2,15 @@
  * @Autor: violet apricity ( Zhuangpx )
  * @Date: 2023-06-09 17:15:29
  * @LastEditors: violet apricity ( Zhuangpx )
- * @LastEditTime: 2023-06-09 17:15:36
+ * @LastEditTime: 2023-06-09 21:43:27
  * @FilePath: \ACM_XCPC_CP\PX-从零开始的ACM模板\SimpleVersion\图论\Dijkstra.md
  * @Description:  Zhuangpx : Violet && Apricity:/ The warmth of the sun in the winter /
 -->
 # Dijkstra
 
 ## 堆优化
+
+单源最短路，堆优化。
 
 ```c++
 /*https://www.luogu.com.cn/problem/P4779*/
