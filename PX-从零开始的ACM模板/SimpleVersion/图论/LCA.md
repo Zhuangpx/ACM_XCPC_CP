@@ -2,13 +2,15 @@
  * @Autor: violet apricity ( Zhuangpx )
  * @Date: 2023-06-08 17:36:50
  * @LastEditors: violet apricity ( Zhuangpx )
- * @LastEditTime: 2023-06-08 18:05:46
+ * @LastEditTime: 2023-06-09 21:53:07
  * @FilePath: \ACM_XCPC_CP\PX-从零开始的ACM模板\SimpleVersion\图论\LCA.md
  * @Description:  Zhuangpx : Violet && Apricity:/ The warmth of the sun in the winter /
 -->
 # LCA
 
 ## 倍增
+
+倍增LCA，先DFS预处理。
 
 ```c++
 #include <bits/stdc++.h>
