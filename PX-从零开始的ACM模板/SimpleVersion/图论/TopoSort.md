@@ -2,13 +2,15 @@
  * @Autor: violet apricity ( Zhuangpx )
  * @Date: 2023-06-09 16:43:34
  * @LastEditors: violet apricity ( Zhuangpx )
- * @LastEditTime: 2023-06-09 16:50:53
+ * @LastEditTime: 2023-06-09 21:55:20
  * @FilePath: \ACM_XCPC_CP\PX-从零开始的ACM模板\SimpleVersion\图论\TopoSort.md
  * @Description:  Zhuangpx : Violet && Apricity:/ The warmth of the sun in the winter /
 -->
 # Topo Sort
 
 ## Bfs
+
+BFS的拓扑序，若字典序最小/大可用优先队列
 
 ```c++
 /*https://www.luogu.com.cn/problem/U107394*/
@@ -65,6 +67,8 @@ signed main()
 ```
 
 ## Dfs
+
+DFS的拓扑序，遍历时染色（-1，0，1）。
 
 ```c++
 #include <bits/stdc++.h>
